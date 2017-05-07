@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "contactus";
+    src: url("../fonts/contactus.eot");
+    src: url("../fonts/contactus.eot?#iefix") format("embedded-opentype"), 
+        url("../fonts/contactus.woff") format("woff"), 
+        url("../fonts/contactus.ttf") format("truetype"), 
+        url("../fonts/contactus.svg#contactus") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[data-icon]:before {
+    font-family: "contactus" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "contactus" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+    content: "\66";
+}
+
+.icon-twitter:before {
+    content: "\74";
+}
+
+.icon-instagram:before {
+    content: "\69";
+}
+
+.icon-youtube:before {
+    content: "\79";
+}
+
+.icon-google-plus-square:before {
+    content: "\67";
+}
+
+.icon-whatsapp:before {
+    content: "\77";
+}
+
+.icon-phone:before {
+    content: "\70";
+}
+
+.icon-phone2:before {
+    content: "\63";
+}
+
+.icon-mail:before {
+    content: "\6d";
+}
+
+.icon-mail2:before {
+    content: "\61";
+}
+
+.icon-map-marker:before {
+    content: "\75";
+}
+
+.icon-office1:before {
+    content: "\6f";
+}
+
+.icon-office2:before {
+    content: "\62";
+}
+
+.icon-home:before {
+    content: "\68";
+}
+
+.icon-home2:before {
+    content: "\64";
+}
+
+.icon-facebook2:before {
+    content: "\65";
+}
+
+.icon-twitter2:before {
+    content: "\6a";
+}
+
+.icon-google2:before {
+    content: "\6b";
+}
+
+.icon-map2:before {
+    content: "\6c";
+}
+
+.icon-bars:before {
+    content: "\6e";
+}
+
+.icon-angle-down:before {
+    content: "\71";
+}
+
+.icon-angle-up:before {
+    content: "\72";
+}
+
+.icon-angle-left:before {
+    content: "\73";
+}
+
+.icon-angle-right:before {
+    content: "\76";
+}
+
+.icon-commenting:before {
+    content: "\78";
+}
+
+.icon-commenting2:before {
+    content: "\7a";
+}
+
+.icon-download:before {
+    content: "\41";
+}
+
+.icon-cancel:before {
+    content: "\42";
+}
+
+.icon-cancel2:before {
+    content: "\43";
+}
